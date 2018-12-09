@@ -37,8 +37,10 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 /* jshint ignore:end */
 
+/* original:
 ga('create', 'UA-39334307-1', 'auto', {'siteSpeedSampleRate': 50});
 ga('create', 'UA-49880327-9', 'auto', {'name': 'devrelTracker'});
 recordPageview();
+*/
 
 })(window);
