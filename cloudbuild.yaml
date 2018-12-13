@@ -2,7 +2,7 @@ steps:
 - name: 'gcr.io/cloud-builders/npm'
   args: ['install']
 - name: 'gcr.io/cloud-builders/npm'
-  args: ['run', 'postinstall']
+  args: ['run', 'build']
 - name: 'gcr.io/cloud-builders/gcloud'
   dir: dist
   args: ['app', 'deploy', 'app.yaml', '--project', 'polymer-japan']
